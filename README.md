@@ -11,3 +11,5 @@ Ir a Tools->New Snippet... copiar el código y guardar con la extensión .sublim
 
 - console.log('ok');
 - pdump($var);
+- $_POST['var') ;
+- $_GET['var') ;
