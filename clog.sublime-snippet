@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+console.log('${1:ok}');
+$2
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>clog</tabTrigger>
+	<tabTrigger>clog</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html,source.js,source.php</scope>
+	<description>Console.log by Manu loco</description>
+</snippet>
