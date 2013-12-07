@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$_POST['${1:var}'] ${2:;}
+$3
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>$_p</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html,source.php,source.js</scope>
+	<description>$_POST['var'] ;</description>
+</snippet>
