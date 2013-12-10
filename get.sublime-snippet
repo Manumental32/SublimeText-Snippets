@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[
-pdump(\$${1:var});
-$2
+        <content><![CDATA[
+\$_GET['${1:var}'] ${2:;}
+$3
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>pdump</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html,source.php</scope>
-	<description>Pdump by Manu loco</description>
+        <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+        <tabTrigger>$_g</tabTrigger>
+        <!-- Optional: Set a scope to limit where the snippet will trigger -->
+        <scope>text.html,source.php,source.js</scope>
+        <description>$_GET['var'] ;</description>
 </snippet>
